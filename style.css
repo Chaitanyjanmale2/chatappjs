@@ -1,0 +1,23 @@
+/* Add styles to float messages left or right */
+.message {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+.other-user {
+    float: left;
+    
+}
+
+.you {
+    float: right;
+    
+}
+.card.no-border {
+    border: none;
+}
+.pad {
+    padding: 5px;
+}
