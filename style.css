@@ -15,9 +15,37 @@
     float: right;
     
 }
-.card.no-border {
+.no-border {
     border: none;
 }
 .pad {
     padding: 5px;
+}
+/* Add custom style to remove border from the card body */
+.card-body.no-border {
+    border: none;
+}
+#chat-box {
+    max-height: calc(100vh - 120px); /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+/* Add custom style to make chat box scrollable */
+
+
+/* Add custom style to make the position of the chat box stable */
+.card {
+    position: relative;
+}
+
+/* Add custom fonts for the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 70px; /* Font size for phone browsers */
+    }
 }
