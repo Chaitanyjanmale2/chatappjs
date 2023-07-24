@@ -78,6 +78,7 @@ function displayMessage(message) {
 
     card.appendChild(cardBody);
     chatBox.appendChild(card);
+    chatBox.scrollTop = chatBox.scrollHeight;
 }
 
 // ... (Rest of the code)
