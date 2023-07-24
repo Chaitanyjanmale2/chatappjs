@@ -66,3 +66,6 @@ body {
     padding-right: 0px;
     margin-left: 10px;
 }
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    width: 150px;
+}
