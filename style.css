@@ -5,7 +5,10 @@
     border-radius: 8px;
     max-width: 70%;
 }
-
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
 .other-user {
     float: left;
     
@@ -28,6 +31,7 @@
 #chat-box {
     max-height: calc(100vh - 120px); /* Adjust the height as needed */
     overflow-y: auto;
+    margin-bottom: 100px;
 }
 
 /* Add custom style to make chat box scrollable */
@@ -37,15 +41,28 @@
 .card {
     position: relative;
 }
-
-/* Add custom fonts for the entire page */
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+#message-input {
+    height: 80px;
 }
+
+.input-group{
+    width: 97%;
+    border: 4px solid rgb(13, 126, 255);
+    border-radius: 10px;
+    font-size: xx-large;
+}
+
+
+/* Add custom fonts for the entire page 
 
 @media (max-width: 768px) {
     body {
-        font-size: 70px; /* Font size for phone browsers */
+        font-size: 70px; /* Font size for phone browsers 
     }
+}
+*/
+.row>*{
+    padding-left:0px;
+    padding-right: 0px;
+    margin-left: 10px;
 }

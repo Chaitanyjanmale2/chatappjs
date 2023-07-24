@@ -13,20 +13,21 @@
   </head>
   <body>
     <div class="container-fluid mt-5">
-        <div class="row">
+        <div class="row p-0">
             <div class="col-md ">
                 <div class="card">
-                    <div class="card-header text-center">Chat App</div>
-                    <div class="card-body fixed-bottom chat-box mb-5" id="chat-box">
+                  <!--  <div class="card-header text-center">Chat App</div>-->
+                    <div class="card-body fixed-bottom chat-box " id="chat-box">
                         <!-- Display messages here -->
                     </div>
-                    <div class="m-4"> <div class="input-group fixed-bottom mb-4 ">
-                        
-                        <input type="text" class="form-control" id="message-input" placeholder="Type your message...">
-                        <button class="btn btn-primary" onclick="sendMessage()">Send</button>
-                    </div></div>
+                   
                    
                 </div>
+            </div>
+            <div class="col-md input-group fixed-bottom mb-4  ">
+                        
+                <input type="text" class="form-control" id="message-input" placeholder="Type your message...">
+                <button class="btn btn-primary" onclick="sendMessage()">Send</button>
             </div>
         </div>
     </div>
