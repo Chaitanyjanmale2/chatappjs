@@ -7,7 +7,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 15px;
 }
 .other-user {
     float: left;
@@ -42,7 +42,7 @@ body {
     position: relative;
 }
 #message-input {
-    height: 80px;
+    height: 47px;
 }
 
 .input-group{
