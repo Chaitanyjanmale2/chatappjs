@@ -24,6 +24,9 @@ body {
 .pad {
     padding: 5px;
 }
+.card-body{
+margin-top: 10px;
+}
 /* Add custom style to remove border from the card body */
 .card-body.no-border {
     border: none;
@@ -67,5 +70,5 @@ body {
     margin-left: 10px;
 }
 .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-    width: 150px;
+    width: 90px;
 }
