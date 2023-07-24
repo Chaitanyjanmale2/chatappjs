@@ -25,7 +25,7 @@ body {
     padding: 5px;
 }
 .card-body{
-margin-top: 10px;
+margin-top: 20px;
 }
 /* Add custom style to remove border from the card body */
 .card-body.no-border {
